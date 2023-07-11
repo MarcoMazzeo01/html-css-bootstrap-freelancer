@@ -20,6 +20,10 @@ main > section:nth-of-type(even) {
     color: black;
 }
 
+main > section:nth-of-type(even) .decor > div {
+    background-color: black;
+}
+
 section > .container > h2 {
     text-transform: uppercase;
     text-align: center;
@@ -51,15 +55,19 @@ footer h5 {
 
 
 .decor {
-    background-color: pink;
+    width: 30%;
     display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+
 }
 
 
 .decor > div {
-    flex-basis: 30%;
-    height: 5px;
+    flex-basis: 40%;
+    height: 4px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -73,6 +81,7 @@ footer h5 {
 .jumbotron {
     text-transform: uppercase;
     color: white;
+    text-align: center;
 }
 
 .jumbotron img {
