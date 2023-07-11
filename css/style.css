@@ -70,6 +70,10 @@ footer > .container-fluid {
    
 }
 
+footer h5 {
+    font-size: 1em;
+}
+
 /* footer social buttons */
 .btn-circle.btn-xl {
     width: 70px;
